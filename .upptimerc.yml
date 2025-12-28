@@ -5,9 +5,11 @@ repo: upptime # The name of this repository
 sites:
   - name: 技能表情包
     url: https://emoji2.sealosbja.site
+    check: "tcp-ping"
     checkInterval: 1
   - name: Sealos官网
     url: https://bja.sealos.run/
+    check: "tcp-ping"
     checkInterval: 1
   - name: 今天看啥
     url: https://www.jintiankansha.me/
