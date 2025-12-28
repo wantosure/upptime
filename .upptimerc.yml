@@ -16,7 +16,6 @@ sites:
     checkInterval: 1
     port: 80
     check: "tcp-ping"
-    checkInterval: 1
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
